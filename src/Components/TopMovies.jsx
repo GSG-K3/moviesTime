@@ -8,8 +8,9 @@ function Movie(props) {
         alt="movie poster"
       />
       <h1>{title}</h1>
-      <h2>{vote_average}</h2>
-      <h3>{release_date}</h3>
+      <p>{vote_average}</p>
+      <p>{release_date}</p>
+      <button className="btn">more Information</button>
     </li>
   );
 }
