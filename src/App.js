@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   onMovieSearchChange = searchData => {
-    console.log(searchData);
+    this.setState({ movies: searchData });
   };
 
   render() {
@@ -30,7 +30,7 @@ class App extends Component {
       <div className="App">
         <h1>movies</h1>
         <MovieHeader onMovieSearchChange={this.onMovieSearchChange} />
-        <MoviesContener movies={this.state.movies.slice(0, 4)} />
+        <MoviesContener movies={this.state.movies} />
       </div>
     );
   }
