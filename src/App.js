@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import TopMovies from "./Components/TopMovies";
+import MoviesContener from "./Components/MoviesContener";
 import "./TopMovies.css";
-import MovieHeader from "./Components/MovieHeader";
 
 class App extends Component {
   state = {
@@ -25,8 +24,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>movies</h1>
-        <MovieHeader />
-        <TopMovies movies={this.state.movies} />
+        <MoviesContener movies={this.state.movies.slice(0, 4)} />
       </div>
     );
   }
