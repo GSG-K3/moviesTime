@@ -15,6 +15,9 @@ the App Consists of four React Components
 as a user you will be able to see the top movies & search for any movie you like to get information about it
 the search auto run after entered 3 chart , and the result of search will display in home page
 
+## Demo 
+https://cdn.discordapp.com/attachments/669450600546566154/694939858048909322/Desktop_2020.04.01_-_19.03.38.06.mp4
+
 ## Team members
 - [Bayan](https://github.com/bayan-404)
 - [yakoob](https://github.com/YakoobHammouri)
