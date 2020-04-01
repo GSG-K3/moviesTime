@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MoviesContener from './Components/MoviesContener';
 import MovieHeader from './Components/MovieHeader';
-import './TopMovies.css';
+
 
 class App extends Component {
   state = {
