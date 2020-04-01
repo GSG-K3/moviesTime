@@ -1,8 +1,16 @@
 import React, { Component } from 'react';
 import defaultMovieImage from './../images/default_movie.png';
 class Movie extends Component {
-  OnMovieClick = e => {
-    alert('click movie');
+  OnMovieClick = movie => {
+    fetch(
+      `https://api.themoviedb.org/3/movie/${movie.id}?api_key=8d220bbf0c754b7fba4f340d43e1633a&language=en-US"`
+    )
+      .then(Response => {
+        return Response.json();
+      })
+      .then(data => {
+        alert(data.original_title + '\n' + data.overview);
+      });
   };
   render() {
     const {
@@ -26,7 +34,12 @@ class Movie extends Component {
           </div>
         </div>
         <p>{release_date}</p>
-        <button className="btn" onClick={this.OnMovieClick}>
+        <button
+          className="btn"
+          onClick={() => {
+            this.OnMovieClick({ id });
+          }}
+        >
           More Info
         </button>
       </li>
