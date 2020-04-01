@@ -3,13 +3,13 @@
 this is a project built using react and TMDB API for the movies
 the App Consists of four React Components 
     
-    1. Movie Search Component  #3
+    1. Movie Search Component
     
-    2. Header Component where Contains the Search movie #6
+    2. Header Component where Contains the Search movie 
     
-    3. Movie Component #11
+    3. Movie Component 
     
-    4.Movies Contener Component Contains the Movie  #4
+    4.Movies Contener Component Contains the Movie 
 
 ## user journey
 as a user you will be able to see the top movies & search for any movie you like to get information about it
