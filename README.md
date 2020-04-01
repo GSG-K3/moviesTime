@@ -1,11 +1,11 @@
 # moviesTime
 
 this is a project built using react and TMDB API for the movies
-the App Consists of for React Components 
+the App Consists of four React Components 
     
     1. Movie Search Component
     
-    2. Header Component where Contains the movie Search
+    2. Header Component where Contains the Search movie 
     
     3. Movie Component 
     
