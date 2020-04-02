@@ -13,7 +13,7 @@ the App Consists of four React Components
 
 ## user journey
 as a user you will be able to see the top movies & search for any movie you like to get information about it
-the search auto run after entered 3 chart , and the result of search will display in home page
+the search auto run after entered 3 characters , and the result of search will display in home page
 
 
 ## How To Run 
