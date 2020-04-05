@@ -17,7 +17,8 @@ class MoviesContener extends Component {
       <section>
         <div className="container">
           <div className="movies-list">
-            {<ul className="row">{moviesArray}</ul>}
+            <h1>{this.props.Name}</h1>
+            {<ul className="row movies-contener">{moviesArray}</ul>}
           </div>
         </div>
       </section>

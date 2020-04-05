@@ -31,6 +31,7 @@ class MovieSearcher extends Component {
   };
 
   render() {
+    const showSearch = this.props.showSearch ? 'show' : 'hidden';
     return (
       <section>
         <div className="header__Search">
@@ -42,6 +43,7 @@ class MovieSearcher extends Component {
             type="text"
             value={this.state.searchValue}
             onChange={this.onSearchChange}
+            className={showSearch}
           />
           <div className={this.state.searchLoaderClass}></div>
         </div>
