@@ -46,10 +46,12 @@ class App extends Component {
     if (scrolling) return;
     if (totalPages <= page) return;
     const lastLi = document.querySelector('ul.movies-contener > li:last-child');
+     if (lastLi) {
     const lastLiOffset = lastLi.offsetTop + lastLi.clientHeight;
     const pageOffset = window.pageYOffset + window.innerHeight;
     const bottomOffset = 20;
     if (pageOffset > lastLiOffset - bottomOffset) this.loadMore();
+     }
   };
 
   componentDidMount() {
