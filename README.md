@@ -12,9 +12,12 @@ the App Consists of four React Components
     4.Movies Contener Component Contains the Movie 
 
 ## user journey
-as a user you will be able to see the top movies & search for any movie you like to get information about it
+as a user you will be able to see the most popular movies in home page and can scrolling down to load more movies & and a user can  search for any movie wants in Browser Movies page by typing in search box in top of page.
 the search auto run after entered 3 characters , and the result of search will display in home page
 
+
+## Feature
+in this App we add infinite scrolling in home page , this feature give user a special experience to browse movies Only through scrolling page down where the movies load more automatically at the end of page 
 
 ## How To Run 
     
